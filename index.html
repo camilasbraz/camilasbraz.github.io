@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="public_html/assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + LeadMark main styles -->
 	<link rel="stylesheet" href="public_html/assets/css/leadmark.css">
+    <link rel="stylesheet" href="public_html/assets/css/dropdown_menu.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -24,11 +25,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">                     
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#service">Our Service</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
+                        <a class="nav-link" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -40,8 +41,22 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="public_html/components.html" class="ml-4 nav-link btn btn-primary btn-sm rounded">Components</a>
+                        <!-- <a class="nav-link"> -->
+                            <div class="dropdown">
+                                <button class="dropbtn ml-4 nav-link btn btn-primary btn-sm rounded">Projects</button>
+                                <div class="dropdown-content">
+                                  <a href="public_html/components.html">Components</a>
+                                  <a href="#">Number Theory</a>
+                                  <a href="#">Arduino and Raspberry</a>
+                                  <a href="#">Bla bla bla</a>
+                                </div>
+                              </div>
+                        <!-- </a> -->
                     </li>
+                    
+                    <!-- <li class="nav-item">
+                        <a href="public_html/components.html" class="ml-4 nav-link btn btn-primary btn-sm rounded">Components</a>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -359,7 +374,7 @@
     <!-- End of Blog Section -->
 
     <!-- Testmonial Section -->
-    <section class="section" id="testmonial">
+    <!-- <section class="section" id="testmonial">
         <div class="container">
             <h6 class="section-title text-center mb-0">Testmonials</h6>
             <h6 class="section-subtitle mb-5 text-center">What Our Clients Says</h6>
@@ -408,7 +423,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End of Testmonial Section -->
 
     <!-- Contact Section -->
