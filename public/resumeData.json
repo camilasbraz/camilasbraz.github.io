@@ -1,52 +1,37 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "name":"Camila Braz",
+    "description":"I am passionate about data and coding. Nowadays I work with data science projects using Python, R and SQL",
+    "image":"pic3.png",
+    "bio":"I have a strong interest in the field of data science and programming, with solid skills in R and Python for data manipulation, analysis, and visualization, as well as application development. I am constantly seeking challenges that push me to grow professionally, and I am always eager to learn. I am committed to delivering high-quality results in all my activities.",
+    "contactmessage":"Let's schedule a meeting! It would be a pleasure to get to know you.",
+    "email": "camilabraz@gmail.com",
+    "phone": "5531991646951",
+    "github":"https://github.com/camilasbraz",
+    "project":"https://www.linkedin.com/in/camila-sbraz/",
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",
       "state":"(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://github.com/camilasbraz",
+    "resumedownload":"https://drive.google.com/file/d/1xI66T9vKqelOnu__-j_F1fWROrmjrb4c/view?usp=drive_link",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/camila-sbraz/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/camilasbraz",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
         "school":"University?",
@@ -78,31 +63,47 @@
     "skills":[
       {
         "name":"Python",
-        "level":"60%"
+        "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"R",
+        "level":"85%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name":"SQL",
+        "level":"70%"
+      },
+      {
+        "name":"Julia",
+        "level":"40%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"40%"
       },
       {
         "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
         "level":"50%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"HTML",
+        "level":"65%"
+      },
+      {
+        "name":"Docker",
+        "level":"70%"
+      },
+      {
+        "name":"Stata",
+        "level":"70%"
+      },
+      {
+        "name":"Git and GitHub",
+        "level":"90%"
+      },
+      {
+        "name":"API",
+        "level":"60%"
       }
     ]
   },
